@@ -1,0 +1,15 @@
+#!/bin/sh
+ARCH=x86_64
+SCRIPT=$(readlink -f $0)
+SCRIPTPATH=`dirname $SCRIPT`
+mkdir -p /tmp/extremecooling4linux
+cp -rf "$SCRIPTPATH"/usr/bin/lib /tmp/extremecooling4linux/
+cp -rf "$SCRIPTPATH"/usr/bin/etc /tmp/extremecooling4linux/
+export FONTCONFIG_PATH=/tmp/extremecooling4linux/etc/fonts
+if [ -z "$1" ];then
+  echo "ExtremeCooling4Linux as gui program"
+  $SCRIPTPATH/toexec
+else
+  echo "ExtremeCooling4Linux as command line $1"
+  $SCRIPTPATH/toexec $1
+fi

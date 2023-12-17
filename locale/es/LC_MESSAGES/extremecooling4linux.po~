@@ -1,0 +1,183 @@
+# Spanish translations for extremecooling package.
+# Copyright (C) 2019 THE extremecooling'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extremecooling package.
+# odin <odintdh@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extremecooling 4linux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-13 21:37+0200\n"
+"PO-Revision-Date: 2019-09-14 18:08+0200\n"
+"Last-Translator: odin <odintdh@gmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/glade_files/mainui.glade:81
+#, fuzzy
+msgid ""
+"60% battery threshold mode supported\n"
+"in Lenovo Legion Yoga laptops. This mode can\n"
+"increase the cooling performance of your laptop\n"
+"and reduces its temperature. This feature is \n"
+"supported only by Lenovo through its Windows\n"
+"program Lenovo Sense Nerve. \n"
+"\n"
+"BatteryOptimizer has been created to enable \n"
+"and support this special feature on Linux. Currently \n"
+"is only tested in Lenovo Legion Y520, but it should \n"
+"be work in other models like Lenovo Legion Y720. \n"
+"\n"
+"However this program does not have warranty \n"
+"and only use at your own risk."
+msgstr ""
+"Extreme cooling es un modo de refrigeración\n"
+"para ventiladores soportado en algunos modelos\n"
+"Lenovo. Este modo puede incrementar el rendimiento\n"
+"de refrigeración de su portátil conseguiendo una \n"
+"reducción de su temperatura. Esta funcionalidad\n"
+"está sólo oficialmente soportada mediante el programa\n"
+",para Windows, Lenovo Sense Nerve.\n"
+"\n"
+"BatteryOptimizer ha sido creado para activar\n"
+"en Linux este modo especial de refrigeración.\n"
+"Actualmente solo se ha probado en el modelo\n"
+"Lenovo Legion Y520 pero debería funcionar también\n"
+"en otros modelos como el Lenovo Legion Y720\n"
+"y similares.\n"
+"\n"
+"Este programa no proporciona ninguna garantía y\n"
+"sólo debe usarlo bajo su propia responsabilidad. \n"
+"Active únicamente el modo extreme cooling durante\n"
+"cortos periodos ya que podría reducir la vida de \n"
+"sus ventiladores. Uselo sólo en modelos que tengan\n"
+"soporte oficial de Lenovo para extreme cooling."
+
+#: data/glade_files/mainui.glade:151
+#, fuzzy
+msgid "<b>Battery optimizer Configuration</b>"
+msgstr "<b>Configuración Extreme Cooling</b>"
+
+#: data/glade_files/mainui.glade:770
+msgid "<b>Important Information</b>"
+msgstr "<b>Información Importante</b>"
+
+#: data/glade_files/mainui.glade:232
+msgid "<b>System Information</b>"
+msgstr "<b>Información del Sistema</b>"
+
+#: data/glade_files/mainui.glade:38
+#, fuzzy
+msgid ""
+"A simple utility to enable 60% battery threshold mode for MSI Summit EVO "
+"laptops"
+msgstr ""
+"Una utilidad para portátiles Lenovo Legion que permite activar el modo "
+"especial de ventilación Extreme Cooling"
+
+#: data/glade_files/mainui.glade:98
+msgid "Battery optimizer"
+msgstr ""
+
+#: data/glade_files/mainui.glade:416
+msgid "Bios"
+msgstr "Bios"
+
+#: data/glade_files/mainui.glade:586
+msgid "Board"
+msgstr "Placa Base"
+
+#: ec4Linux.py:388
+msgid "Disable extreme cooling failed"
+msgstr "La desactivación del modo extreme cooling ha fallado"
+
+#: data/glade_files/mainui.glade:186
+msgid "Enable 60% battery threshold"
+msgstr ""
+
+#: ec4Linux.py:369
+msgid "Enable extreme cooling failed"
+msgstr "La activación del modo extreme cooling ha fallado"
+
+#: ec4Linux.py:336 ec4Linux.py:359 ec4Linux.py:369 ec4Linux.py:377
+#: ec4Linux.py:388
+msgid "Error"
+msgstr "Error"
+
+#: ec4Linux.py:344
+msgid ""
+"BatteryOptimizer needs root privileges to enable/disable extreme "
+"cooling. Please, execute BatteryOptimizer with sudo."
+msgstr ""
+"BatteryOptimizer necesita privilegios de root para activar/desactivar el "
+"modo extreme cooling. Por favor, ejecute BatteryOptimizer con sudo."
+
+#: data/glade_files/mainui.glade:217
+msgid "Battery Control"
+msgstr "Configuración"
+
+#: data/glade_files/mainui.glade:247
+msgid "Model"
+msgstr "Modelo"
+
+#: data/glade_files/mainui.glade:284 data/glade_files/mainui.glade:623
+msgid "Name"
+msgstr "Nombre"
+
+#: data/glade_files/mainui.glade:799
+msgid "Readme"
+msgstr "Información"
+
+#: data/glade_files/mainui.glade:499
+msgid "Release Date"
+msgstr "Fecha de Publicación"
+
+#: data/glade_files/mainui.glade:754
+msgid "System"
+msgstr "Sistema"
+
+#: ec4Linux.py:344
+msgid "User does not have enough privileges."
+msgstr "El usuario no tiene suficientes permisos para realizar la acción"
+
+#: data/glade_files/mainui.glade:376 data/glade_files/mainui.glade:546
+#: data/glade_files/mainui.glade:715
+msgid "Vendor"
+msgstr "Vendedor"
+
+#: data/glade_files/mainui.glade:330 data/glade_files/mainui.glade:454
+#: data/glade_files/mainui.glade:669
+msgid "Version"
+msgstr "Versión"
+
+#: ec4Linux.py:337 ec4Linux.py:359 ec4Linux.py:377
+msgid ""
+"Your laptop does not support Extreme Cooling fan mode. Only some Lenovo "
+"laptops supports this feature."
+msgstr ""
+"Tu portátil no tiene soporte para el modo de ventilación Extreme Cooling. "
+"Solamente algunos portátiles Lenovo tienen soporte para este modo."
+
+#: data/glade_files/mainui.glade:299 data/glade_files/mainui.glade:345
+#: data/glade_files/mainui.glade:391 data/glade_files/mainui.glade:468
+#: data/glade_files/mainui.glade:514 data/glade_files/mainui.glade:560
+#: data/glade_files/mainui.glade:638 data/glade_files/mainui.glade:684
+#: data/glade_files/mainui.glade:730
+msgid "label"
+msgstr "etiqueta"
+
+#~ msgid "Enable Extreme Cooling"
+#~ msgstr "Activar Extreme Cooling"
+
+#~ msgid "BatteryOptimizer"
+#~ msgstr "BatteryOptimizer"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "User does not have enough privileges"
+#~ msgstr "El usuario no tiene suficientes permisos para realizar la acción"

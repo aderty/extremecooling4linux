@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=BatteryOptimizer
+Exec=ec4Linux %u
+Icon=extremecooling4linux
+Comment=a Gtk3 program to enable battery optimizer for MSI Summit Evo laptops
+Categories=Utility;

@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-13 21:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade_files/mainui.glade:81
+msgid ""
+"60% battery threshold mode supported\n"
+"in MSI Summit Evo laptops. This mode can\n"
+"increase the battery lifetime of your laptop. This feature is \n"
+"supported only by MSI Summit Evo through its Windows\n"
+"program MSI Center Pro. \n"
+"\n"
+"BatteryOptimizer has been created to enable \n"
+"and support this special feature on Linux. Currently \n"
+"is only tested in MSI Summit Evo Flip 13, but it should \n"
+"be work in other models. \n"
+"\n"
+"However this program does not have warranty \n"
+"and only use at your own risk."
+msgstr ""
+
+#: data/glade_files/mainui.glade:150
+msgid "<b>Battery optimizer Configuration</b>"
+msgstr ""
+
+#: data/glade_files/mainui.glade:769
+msgid "<b>Important Information</b>"
+msgstr ""
+
+#: data/glade_files/mainui.glade:231
+msgid "<b>System Information</b>"
+msgstr ""
+
+#: data/glade_files/mainui.glade:38
+msgid ""
+"A simple utility to enable 60% battery threshold mode for MSI Summit Evo "
+"laptops"
+msgstr ""
+
+#: data/glade_files/mainui.glade:97
+msgid "Battery optimizer"
+msgstr ""
+
+#: data/glade_files/mainui.glade:415
+msgid "Bios"
+msgstr ""
+
+#: data/glade_files/mainui.glade:585
+msgid "Board"
+msgstr ""
+
+#: ec4Linux.py:388
+msgid "Disable extreme cooling failed"
+msgstr ""
+
+#: data/glade_files/mainui.glade:185
+msgid "Enable 60% battery threshold"
+msgstr ""
+
+#: ec4Linux.py:369
+msgid "Enable extreme cooling failed"
+msgstr ""
+
+#: ec4Linux.py:336 ec4Linux.py:359 ec4Linux.py:369 ec4Linux.py:377
+#: ec4Linux.py:388
+msgid "Error"
+msgstr ""
+
+#: ec4Linux.py:344
+msgid ""
+"BatteryOptimizer needs root privileges to enable/disable extreme "
+"cooling. Please, execute BatteryOptimizer with sudo."
+msgstr ""
+
+#: data/glade_files/mainui.glade:216
+msgid "Battery Control"
+msgstr ""
+
+#: data/glade_files/mainui.glade:246
+msgid "Model"
+msgstr ""
+
+#: data/glade_files/mainui.glade:283 data/glade_files/mainui.glade:622
+msgid "Name"
+msgstr ""
+
+#: data/glade_files/mainui.glade:798
+msgid "Readme"
+msgstr ""
+
+#: data/glade_files/mainui.glade:498
+msgid "Release Date"
+msgstr ""
+
+#: data/glade_files/mainui.glade:753
+msgid "System"
+msgstr ""
+
+#: ec4Linux.py:344
+msgid "User does not have enough privileges."
+msgstr ""
+
+#: data/glade_files/mainui.glade:375 data/glade_files/mainui.glade:545
+#: data/glade_files/mainui.glade:714
+msgid "Vendor"
+msgstr ""
+
+#: data/glade_files/mainui.glade:329 data/glade_files/mainui.glade:453
+#: data/glade_files/mainui.glade:668
+msgid "Version"
+msgstr ""
+
+#: ec4Linux.py:337 ec4Linux.py:359 ec4Linux.py:377
+msgid ""
+"Your laptop does not support Extreme Cooling fan mode. Only some Lenovo "
+"laptops supports this feature."
+msgstr ""
+
+#: data/glade_files/mainui.glade:298 data/glade_files/mainui.glade:344
+#: data/glade_files/mainui.glade:390 data/glade_files/mainui.glade:467
+#: data/glade_files/mainui.glade:513 data/glade_files/mainui.glade:559
+#: data/glade_files/mainui.glade:637 data/glade_files/mainui.glade:683
+#: data/glade_files/mainui.glade:729
+msgid "label"
+msgstr ""

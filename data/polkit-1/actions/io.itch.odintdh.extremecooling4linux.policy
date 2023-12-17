@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <vendor>BatteryOptimizer</vendor>
+  <vendor_url>https://gitlab.com/OdinTdh/extremecooling4linux</vendor_url>
+
+  <action id="io.itch.odintdh.BatteryOptimizer.ec4Linux-execute">
+    <description>Enable or disable BatteryOptimizer</description>
+    <message>Authentication is required to execute BatteryOptimizer</message>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/ec4Linux.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+  </action>
+
+</policyconfig>
